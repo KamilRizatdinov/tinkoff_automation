@@ -1,0 +1,23 @@
+.my-navigation {
+  background-color: #ffcd33;
+  padding: 0px 10px;
+}
+
+.payment-btn {
+  margin: 0 auto;
+  position: relative;
+  z-index: 1000;
+  background-color: #ffcd33;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.PaymentsListItemsWrapper__list_horizontal_oX-tI .PaymentsListItemsWrapper__item_21g-P {
+	width: 30%;
+	padding: 20px;
+	margin: 10px;
+	box-shadow: 10 10 10 black;
+	-webkit-box-shadow: 0px 6px 32px -5px rgba(0,0,0,0.47);
+	box-shadow: 0px 6px 32px -5px rgba(0,0,0,0.47);
+	border-radius: 5px;
+}

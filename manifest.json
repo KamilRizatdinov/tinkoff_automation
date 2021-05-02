@@ -1,0 +1,36 @@
+{
+
+  "manifest_version": 2,
+  "name": "auto-tinkoff",
+  "version": "1.0",
+
+  "description": "Simple management of your fauvorite payments in tinkoff",
+
+  "icons": {
+    "48": "icons/icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.tinkoff.ru/*"],
+      "js": [
+        "pages/summary.js"
+      ],
+      "css": ["main.css"]
+    },
+    {
+      "matches": ["*://www.tinkoff.ru/payments/my/*"],
+      "js": [
+        "pages/payments.js"
+      ],
+      "css": ["main.css"]
+    },
+    {
+      "matches": ["*://www.tinkoff.ru/payments/id*"],
+      "js": [
+        "pages/payment.js"
+      ],
+      "css": ["main.css"]
+    }
+  ]
+}
